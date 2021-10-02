@@ -19,3 +19,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 3. Note: we need to restart the sever to see the results
 4. Add redistration to the Material Module
 4. Test with <https://tburleson-layouts-demos.firebaseapp.com/#/docs>```fxLayoutAlign="space-around center"```
+
+## We now have a starter project with Angular Material and Angular Flex Layout
+
