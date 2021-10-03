@@ -1,3 +1,11 @@
 .container {
   width: 100%;
 }
+
+.list {
+  min-width: 500px;
+}
+
+.details {
+  min-width: 500px;
+}
