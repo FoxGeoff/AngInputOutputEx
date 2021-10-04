@@ -4,5 +4,6 @@
   <app-recipe-item
     *ngFor="let item of recipes"
     [recipe]="item"
+    (recipeWasSelected)="onRecipeSelected(item) "
   ></app-recipe-item>
 </ul>

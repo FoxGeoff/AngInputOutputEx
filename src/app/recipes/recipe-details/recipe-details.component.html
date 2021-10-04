@@ -1,1 +1,9 @@
-<p>recipe-details works!</p>
+<h4>Details</h4>
+ <mat-card>
+   <mat-card-title> {{recipe.name}}</mat-card-title>
+   <mat-card-subtitle>Ingredients</mat-card-subtitle>
+   <mat-card-content *ngFor="let item of recipe.ingredients">
+    <p>{{item.name}}     |       Qty: {{item.amount}}</p>
+   </mat-card-content>
+ </mat-card>
+
