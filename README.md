@@ -22,4 +22,4 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## We now have a starter project with Angular Material and Angular Flex Layout
 
-### Task: Add component model and service recipe files
+### Task: Add components, recipe model and service files for recipes
