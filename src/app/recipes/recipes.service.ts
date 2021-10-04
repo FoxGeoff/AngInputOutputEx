@@ -25,4 +25,9 @@ export class RecipesService {
   ];
 
   constructor() { }
+
+  getRecipes(): Recipe[] {
+    // only a copy of the array is returned
+    return this.recipes.slice();
+  }
 }
