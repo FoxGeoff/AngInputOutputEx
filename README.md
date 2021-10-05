@@ -25,3 +25,20 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### Task: Add components, recipe model and service files for recipes
 
 ### Task: Add recipe list template
+
+### Note: for *ngIf="isTrue"; else text
+
+```typescript
+    <ng-container *ngIf="isDone;  then iAmDone; else iAmNotDone">
+    </ng-container>
+
+    <ng-template #iAmDone>
+      It's Done!
+    </ng-template>
+
+    <ng-template #iAmNotDone>
+      It's Not Done!
+    </ng-template>
+  ```
+  
+  1. Ref: <https://stackoverflow.com/questions/43006550/how-to-use-ngif-else>
