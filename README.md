@@ -1,4 +1,4 @@
-# AngInputOutputEx
+# AngInputOutputEx => AngFormEx
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
 
@@ -45,3 +45,5 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   ```
 
   1. Ref: <https://stackoverflow.com/questions/43006550/how-to-use-ngif-else>
+
+## Task: Add a templates form for editing a recipe
