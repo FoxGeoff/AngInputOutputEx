@@ -7,14 +7,13 @@
   </div>
   <div class="details">
     <app-recipe-details
-      *ngIf="selectedRecipe;else msg"
-      [recipe] = "selectedRecipe"
-      > </app-recipe-details>
+      *ngIf="selectedRecipe; else msg"
+      [recipe]="selectedRecipe"
+    >
+    </app-recipe-details>
   </div>
-
 
   <ng-template #msg>
     <div class="text-info">Please select a Recipe!</div>
   </ng-template>
-
 </div>
