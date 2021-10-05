@@ -5,6 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Project Introduction
 
 1. Video Ref: <https://learning.oreilly.com/videos/angular-the/9781788998437/9781788998437-video6_4/>
+2. Use of fxLayout <https://tburleson-layouts-demos.firebaseapp.com/#/docs>
 
 ### Task: Add Angular Material
 
