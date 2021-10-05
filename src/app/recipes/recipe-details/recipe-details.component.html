@@ -1,9 +1,12 @@
 <h4>Details</h4>
- <mat-card>
-   <mat-card-title> {{recipe.name}}</mat-card-title>
-   <mat-card-subtitle>Ingredients</mat-card-subtitle>
-   <mat-card-content *ngFor="let item of recipe.ingredients">
-    <p>{{item.name}}     |       Qty: {{item.amount}}</p>
-   </mat-card-content>
- </mat-card>
+<mat-card>
+  <mat-card-title>
+    {{ recipe.name }}
+<p style="margin-left: 200px;"><img mat-card-image style="max-width: 100px" src="{{ recipe.imagePath }}" /></p>
+  </mat-card-title>
 
+  <mat-card-subtitle> Ingredients </mat-card-subtitle>
+  <mat-card-content *ngFor="let item of recipe.ingredients">
+    <p>{{ item.name }} | Qty: {{ item.amount }}</p>
+  </mat-card-content>
+</mat-card>
