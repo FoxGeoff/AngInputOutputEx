@@ -4,6 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Project Introduction
 
+1. Video Ref: <https://learning.oreilly.com/videos/angular-the/9781788998437/9781788998437-video6_4/>
+
 ### Task: Add Angular Material
 
 1. Online Ref: <https://material.angular.io/guide/getting-started>
@@ -40,5 +42,5 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
       It's Not Done!
     </ng-template>
   ```
-  
+
   1. Ref: <https://stackoverflow.com/questions/43006550/how-to-use-ngif-else>
