@@ -12,5 +12,8 @@
 
 .text-info {
   color: red;
+}
 
+.edit {
+  min-width: 500px;
 }
