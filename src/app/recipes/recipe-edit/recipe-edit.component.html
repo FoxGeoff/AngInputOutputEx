@@ -7,11 +7,11 @@
       <input matInput ngModel name="name" placeholder="Name" />
     </mat-form-field>
     <mat-form-field>
-      <input matInput placeholder="Image URL" />
+      <input matInput ngModel name="imageURL" placeholder="Image URL" />
     </mat-form-field>
 
     <mat-form-field>
-      <textarea matInput placeholder="Description"></textarea>
+      <textarea matInput ngModel name="description" placeholder="Description"></textarea>
     </mat-form-field>
     <div class="fxRow" fxLayoutGap="18px">
       <mat-form-field>
@@ -28,4 +28,5 @@
     </div>
   </form>
   <p *ngIf="name"> {{name}} has been saved!</p>
+  <p *ngIf="description"> it contains: {{description}}</p>
 </mat-card>

@@ -10,6 +10,7 @@ export class RecipeEditComponent implements OnInit {
   // gives continues access to form
   @ViewChild('f') editRecipe: NgForm;
   name: string;
+  description:string;
 
   constructor() { }
 
@@ -26,6 +27,7 @@ export class RecipeEditComponent implements OnInit {
   onSubmit(form: NgForm) {
     console.log(form);
     this.name = form.value.name;
+    this.description= form.value.description;
   }
 
 
