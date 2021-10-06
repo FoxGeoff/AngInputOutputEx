@@ -46,4 +46,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
   1. Ref: <https://stackoverflow.com/questions/43006550/how-to-use-ngif-else>
 
-## Task: Add a templates form for editing a recipe
+### Task: Add a templates form for editing a recipe
+
+1. Validation for pos. number ```pattern= ^[1-9]+[0-9]*$``` (note short cut for binding to string that was ```[pattern]="'^[1-9]+[0-9]*$'"```)
+
+### Task: Extraction of one of the ingrediences using it's index stored in an observable subject
+
+1. Video Ref: <https://learning.oreilly.com/videos/angular-the/9781788998437/9781788998437-video16_4/>
