@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.container > * {
+  width: 100%;
+}
+.fxRow {
+  margin-top: 18px;
+}
+
+mat-card {
+  margin-left: 18px;
+  margin-right: 18px;
+}

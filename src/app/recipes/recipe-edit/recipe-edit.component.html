@@ -1,1 +1,28 @@
-<p>recipe-edit works!</p>
+<h4>Edit</h4>
+<mat-card>
+<form class="container">
+  <mat-form-field>
+    <input matInput placeholder="Name" />
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="Image URL" />
+  </mat-form-field>
+
+  <mat-form-field>
+    <textarea matInput placeholder="Description"></textarea>
+  </mat-form-field>
+  <div class="fxRow" fxLayoutGap="18px">
+    <mat-form-field>
+      <input matInput placeholder="Ingredient" />
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Qty" />
+    </mat-form-field>
+    <mat-divider></mat-divider>
+  </div>
+  <div class="fxRow" fxLayoutGap="18px">
+    <button mat-raised-button color="warn">Cancel</button>
+    <button mat-raised-button color="primary">Save</button>
+  </div>
+</form>
+</mat-card>
